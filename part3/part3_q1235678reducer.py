@@ -8,7 +8,6 @@ def reducer():
         key, *values = line.strip().split('\t')
         data[key].append(values)
 
-    # Process each question
     for key in sorted(data.keys()):
         if key in {'Q1', 'Q6', 'Q7', 'Q8', 'Q10'}:
             print(f'{key}: {sum(int(x[0]) for x in data[key])} bytes' if key in {'Q8', 'Q10'} else f'{key}: {sum(int(x[0]) for x in data[key])}')

@@ -3,7 +3,7 @@ import sys
 def mapper(line):
     parts = line.split()
     if len(parts) < 10:
-        return  # Skip lines that do not have enough parts
+        return 
 
     ip = parts[0]
     request_line = parts[6]
