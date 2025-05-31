@@ -13,6 +13,9 @@ This project aims to provide hands-on experience in setting up Hadoop using Dock
 -  Developed a MapReduce program in Java to compute **n-gram frequencies** from a given text file
 -  Accepts dynamic `n` value as input for flexibility (e.g., bigram, trigram)
 
+-  ![image](https://github.com/user-attachments/assets/2999ea83-a400-4144-9d61-739bb677c738)
+
+
 ### Part 3: Analyzing Real Web Server Logs Using MapReduce
 
 -  Used anonymized server logs in **Common Log Format** stored in `access_log`
@@ -30,5 +33,11 @@ This project aims to provide hands-on experience in setting up Hadoop using Dock
 8.  Data requested on `19/Dec/2020`
 9.  Top 3 IPs by data usage
 10. Total successful (200) data transfer on `16/Jan/2022`
+
+![image](https://github.com/user-attachments/assets/6d91af40-36f7-41da-9806-0aabb9ccaeb7)
+
+![image](https://github.com/user-attachments/assets/b1dd3ec0-0d95-4133-a929-cea63e929284)
+
+
 
 📄 *More details and exact outputs are included in the final report.*
